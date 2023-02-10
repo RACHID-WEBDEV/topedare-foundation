@@ -1,0 +1,145 @@
+ProJects images
+
+<>< a href = "https://ibb.co/KbfyJWM" ><img src="https://i.ibb.co/LYcp31L/tope-dare-foundation-project-1.jpg" alt="tope-dare-foundation-project-1" border="0" />
+<a href="https://ibb.co/jTXstg1"><img src="https://i.ibb.co/FKTCpgj/tope-dare-foundation-project-2.jpg" alt="tope-dare-foundation-project-2" border="0" /></a>
+<a href="https://ibb.co/2hnkfnw"><img src="https://i.ibb.co/H4FHkF0/tope-dare-foundation-project-3.jpg" alt="tope-dare-foundation-project-3" border="0" /></a>
+<a href="https://ibb.co/tQGyB0C"><img src="https://i.ibb.co/Bcp8Lhs/tope-dare-foundation-project-4.jpg" alt="tope-dare-foundation-project-4" border="0" /></a>
+<a href="https://ibb.co/SJM0j9r"><img src="https://i.ibb.co/9G12DCt/tope-dare-foundation-project-5.jpg" alt="tope-dare-foundation-project-5" border="0" /></a>
+<a href="https://ibb.co/q9PLTSK"><img src="https://i.ibb.co/VDP0f1R/tope-dare-foundation-project-6.jpg" alt="tope-dare-foundation-project-6" border="0" /></a>
+<a href="https://ibb.co/7XPP8NZ"><img src="https://i.ibb.co/FK22Nqy/tope-dare-foundation-project-7.jpg" alt="tope-dare-foundation-project-7" border="0" /></a>
+<a href="https://ibb.co/wCqzhQK"><img src="https://i.ibb.co/920rH4q/tope-dare-foundation-project-8.jpg" alt="tope-dare-foundation-project-8" border="0" /></a>
+<a href="https://ibb.co/K9FmrfQ"><img src="https://i.ibb.co/cNDxrZp/tope-dare-foundation-project-9.jpg" alt="tope-dare-foundation-project-9" border="0" /></a>
+<a href="https://ibb.co/1TYx0vt"><img src="https://i.ibb.co/VT08Ljc/tope-dare-foundation-project-10.jpg" alt="tope-dare-foundation-project-10" border="0" /></a></>
+
+
+        <img src="https://i.ibb.co/LYcp31L/tope-dare-foundation-project-1.jpg" alt="tope-dare-foundation-project-1" border="0" />    
+          <img src="https://i.ibb.co/FKTCpgj/tope-dare-foundation-project-2.jpg" alt="tope-dare-foundation-project-2" border="0" />   
+          <img src="https://i.ibb.co/H4FHkF0/tope-dare-foundation-project-3.jpg" alt="tope-dare-foundation-project-3" border="0" />          
+          <img src="https://i.ibb.co/Bcp8Lhs/tope-dare-foundation-project-4.jpg" alt="tope-dare-foundation-project-4" border="0" />
+          <img src="https://i.ibb.co/9G12DCt/tope-dare-foundation-project-5.jpg" alt="tope-dare-foundation-project-5" border="0" />          
+          <img src="https://i.ibb.co/VDP0f1R/tope-dare-foundation-project-6.jpg" alt="tope-dare-foundation-project-6" border="0" />          
+          <img src="https://i.ibb.co/FK22Nqy/tope-dare-foundation-project-7.jpg" alt="tope-dare-foundation-project-7" border="0" />          
+          <img src="https://i.ibb.co/920rH4q/tope-dare-foundation-project-8.jpg" alt="tope-dare-foundation-project-8" border="0" />          
+          <img src="https://i.ibb.co/cNDxrZp/tope-dare-foundation-project-9.jpg" alt="tope-dare-foundation-project-9" border="0" />
+          
+          <img src="https://i.ibb.co/VT08Ljc/tope-dare-foundation-project-10.jpg" alt="tope-dare-foundation-project-10" border="0" />
+  
+  
+  
+   <Fade top>
+        <SectionTitle title="Who We Are" />
+    </Fade>
+    <Fade left>
+        <div className="max-w-2xl">
+            <SectionSubTitle subTitle=" Helping each other can make world better" />
+
+        </div>
+    </Fade>
+
+    <div>
+        <div className="flex items-center space-x-20 mb-5">
+            <span className="border border-gray-300 w-14 absolute" ></span>
+            <p className="text-gray-400 tracking-wide uppercase font-black text-base">Who We Are</p>
+        </div>
+
+        <div className="max-w-2xl">
+            <h1 className="text-gray-800 mb-6 text-3xl lg:text-4xl ">
+                Helping each other can make world better
+            </h1>
+        </div>
+    </div>
+
+
+    =====> About INTRO
+
+
+     <div>
+        <Fade top>
+            <div className="flex items-center space-x-20 mb-5">
+                <span className="border border-gray-300 w-14 absolute" ></span>
+                <p className="text-gray-400 tracking-wide uppercase font-black text-base">Helping Them Today</p>
+            </div>
+        </Fade>
+        <Fade left>
+            <h1 className="text-gray-800 mb-6 text-3xl lg:text-4xl ">
+                See what we do for the poor people and the children
+            </h1>
+        </Fade>
+        <Fade bottom>
+            <p className="mb-10 text-gray-600">
+                Help is Our Goal. We Can Save More Lifes With Your Helping Hand. We believe they have a future bright with hope if we assist with the basic education, health care employment opportunity and empowerment.
+            </p>
+
+        </Fade>
+    </div>
+
+
+
+     <AboutIntro aboutpage title="Helping Them Today" subTitle=" See what we do for the poor people and the children" content="Help is Our Goal. We Can Save More Lifes With Your Helping Hand. We believe they have a future bright with hope if we assist with the basic education, health care employment opportunity and empowerment." switchColumn />
+
+
+===> INITIATIVES
+
+       <SectionSubTitle subTitle=" Changing the lives of these children and everyone around them." />
+
+        {/* <div>
+                                    <h1 className="text-gray-800 mb-6 text-3xl lg:text-4xl ">
+                                        Changing the lives of these children and everyone around them.
+                                    </h1>
+                                    <p className=" text-gray-600 ">
+                                        We organize outreaches and initiatives to help relieve human suffering in our country by providing access to necessities. Health, education, and economic empowerment are three of our focus areas.
+                                    </p>
+                                </div> */}
+
+=====> Category
+
+
+{/* <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-gray-600">Empowerment</h5>
+<p className="text-base text-gray-600">Promoting empowerment of the unemployed in achieving poverty eradication, social integration, and full employment integration for our youth and women</p> */}
+
+ {/* <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-gray-600">Education</h5>
+<p className="text-base text-gray-600">Keeping kids in school through tutoring, computer courses, and financial aid as education serves as a panacea for socio-economic</p> */}
+
+{/* <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-gray-600">Employment</h5>
+<p className="text-base text-gray-600">Providing an avenue to train unemployed youths with the necessary skills to get jobs and start a career or profession for financial freedom</p> */}
+
+====> STATS
+
+<Fade top>
+<h1 className="text-gray-800 mb-6 text-3xl lg:text-4xl  text-center">
+    Help is Our Goal
+</h1>
+
+</Fade>
+<Fade left>
+<p className=" text-gray-600 text-center capitalize mb-16">  We help people with our power to fight poverty and Malnutritions.</p>
+
+</Fade>
+
+
+
+
+
+                {/*<div>
+                            <div className="mb-10 text-gray-600 text-center">
+                                <span className="font-Fredoka text-gray-800 block text-3xl lg:text-5xl">870
+                                    +</span>
+                                <p>Total Donations</p>
+                            </div>
+                        </div>
+                        */}
+                {/* <div className="mb-10 text-gray-600 text-center">
+                            <span className="font-Fredoka text-gray-800 block text-3xl lg:text-5xl">480+</span>
+                            <p>Campaigns Closed</p>
+                        </div> */}
+                {/* <div className="mb-10 text-gray-600 text-center">
+                            <span className="font-Fredoka text-gray-800 block text-3xl lg:text-5xl">365+</span>
+                            <p>Happy People</p>
+                        </div> 
+
+                        <div className="mb-10 text-gray-600 text-center">
+    <span className="font-Fredoka text-gray-800 block text-3xl lg:text-5xl">23+</span>
+    <p>Total Volunteers</p>
+
+</div> 
+                        */}

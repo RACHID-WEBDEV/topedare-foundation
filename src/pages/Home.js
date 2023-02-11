@@ -41,8 +41,7 @@ const Home = () => {
 
 export default Home
 
-  //  <HeroIntro />
-      // <AboutIntro title="About Us" subTitle={data.slice(0, 1)} content={data.slice(1, 2)} statsTitle1={data.slice(2, 3)} statsSubTitle1={data.slice(3, 4)} statsTitle2={data.slice(4, 5)} statsSubTitle2={data.slice(5, 6)} floatStats={data.slice(6, 7)} />
+
 
   //     <WhatWeDo title={data.slice(7, 8)} subTitle={data.slice(8, 9)} cat1Title={data.slice(9, 10)} cat1SubTitle={data.slice(10, 11)} cat2Title={data.slice(11, 12)} cat2SubTitle={data.slice(12, 13)} cat3Title={data.slice(13, 14)} cat3SubTitle={data.slice(14, 15)} cat4Title={data.slice(15, 16)} cat4SubTitle={data.slice(16, 17)} />
 

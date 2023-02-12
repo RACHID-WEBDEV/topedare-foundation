@@ -40,8 +40,8 @@ const Footer = () => {
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
-                            <h2 className="mb-6 font-DmSans font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-                            <ul className="text-gray-600 space-y-4 dark:text-gray-400">
+                            <h2 className="mb-6 font-DmSans font-semibold text-gray-900 uppercase ">Resources</h2>
+                            <ul className="text-gray-600 space-y-4 ">
                                 <li >
                                     <Link to="/">
                                         <span className="hover:underline">Home</span>
@@ -69,8 +69,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 font-DmSans  font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                            <ul className="text-gray-600 space-y-4 dark:text-gray-400">
+                            <h2 className="mb-6 font-DmSans  font-semibold text-gray-900 uppercase ">Follow us</h2>
+                            <ul className="text-gray-600 space-y-4 ">
                                 <li >
                                     <Link to="">
                                         <span className="hover:underline ">Facebook</span>
@@ -90,8 +90,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 font-DmSans  font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                            <ul className="text-gray-600 space-y-4 dark:text-gray-400">
+                            <h2 className="mb-6 font-DmSans  font-semibold text-gray-900 uppercase ">Legal</h2>
+                            <ul className="text-gray-600 space-y-4 ">
                                 <li >
                                     <Link to="">
                                         <span className="hover:underline">Privacy Policy</span>
@@ -111,7 +111,7 @@ const Footer = () => {
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className=" text-gray-600 sm:text-center dark:text-gray-400">© {new Date().getFullYear()} <a href="https://topedare.org/" className="hover:underline">TDF Foundation™</a>. All Rights Reserved- Made with ❤ by
+                    <span className=" text-gray-600 sm:text-center ">© {new Date().getFullYear()} <a href="https://topedare.org/" className="hover:underline">TDF Foundation™</a>. All Rights Reserved- Made with ❤ by
                         <a href="https://roatek.com.ng/" target="_blank" rel="noreferrer" className="text-tdf-blue-500 font-medium underline-hover ml-1">
                             Roatek
                         </a>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import SectionSubTitle from './SectionSubTitle';
 import Button from '../form/Button';
 import { Fade } from 'react-reveal';
-// import blogdata from '../../data/blog';
+import blogdata from '../../data/blog';
 import { kebabCase } from '../../utils/utils'
 import useSWR from 'swr';
 import parse from "html-react-parser";
@@ -12,7 +12,7 @@ const _config = require("../../config.json")
 export const LargeBlogcard = ({ blogPhoto, category, short_desc, title, }) => (
     <div className="lg:w-6/12 group">
         <Link to={`/blog/${kebabCase(title)}`}>
-            <div className="relative overflow-hidden rounded-md w-full max-h-96 h-80 ">
+            <div className="relative overflow-hidden rounded-md w-full max-h-96 lg:min-h-[420px] h-80 ">
                 <img className="transform group-hover:scale-110 w-full h-full rounded-xl mb-6 transition-transform duration-500" src={blogPhoto} alt="blog" />
                 <span className="bg-yellow-300 absolute bottom-2 left-2 text-darken text-xs font-semibold px-4 py-1 uppercase  rounded-full">{category}</span>
             </div>
@@ -51,11 +51,16 @@ export const SmallBlogcard = ({ blogPhoto, category, id, short_desc, title, slug
 )
 
 const BlogIntro = () => {
-    const { data, error } = useSWR(`${_config.REACT_APP_BASE_URL}public/content/posts?user=${_config.REACT_APP_USER_lOGIN_ID}`)
+    const devblogData = blogdata?.sort()?.reverse()
+    // console.log('otex', devblogData)
+    // 
 
-    if (error) console.log(error)
+    // const { data, error } = useSWR(`${_config.REACT_APP_BASE_URL}public/content/posts?user=${_config.REACT_APP_USER_lOGIN_ID}`)
 
-    const introablogData = data?.data?.posts?.sort()?.reverse()
+    // if (error) console.log(error)
+
+    // const introablogData = data?.data?.posts?.sort()?.reverse()
+
 
     // console.log('introablogData', introablogData)
 
@@ -63,7 +68,6 @@ const BlogIntro = () => {
         <div className="my-14 bg-tdf-bg py-8 lg:px-10 lg:py-16">
             <Fade top>
                 <SectionSubTitle className="text-center " subTitle="Daily Updates" />
-
             </Fade>
             <Fade bottom>
                 <p className="text-center text-gray-600">Latest news and articles directly
@@ -71,16 +75,16 @@ const BlogIntro = () => {
             </Fade>
             <div className="p-4 lg:p-12 flex flex-col lg:flex-row lg:space-x-20 ">
                 {
-                    introablogData?.slice(0, 1).map(({ title, image, category, content, id }) => (
-                        <LargeBlogcard key={id} title={title} blogPhoto={image} category={category.label} short_desc={parse(content.substring(0, 299))
+                    devblogData?.slice(0, 1).map(({ title, image, category, content, id }) => (
+                        <LargeBlogcard key={id} title={title} blogPhoto={image} category={category} short_desc={parse(content.substring(0, 299))
                         } />
                     ))
                 }
 
                 <div className="lg:w-7/12 flex flex-col justify-between mt-12 space-y-5 lg:space-y-0 lg:mt-0">
                     {
-                        introablogData?.slice(1, 4).map(({ title, image, category, content, id }) => (
-                            <SmallBlogcard key={id} title={title} blogPhoto={image} category={category.label} short_desc={parse(content.substring(0, 299))} />
+                        devblogData?.slice(1, 4).map(({ title, image, category, content, id }) => (
+                            <SmallBlogcard key={id} title={title} blogPhoto={image} category={category} short_desc={parse(content.substring(0, 299))} />
                         ))
                     }
 

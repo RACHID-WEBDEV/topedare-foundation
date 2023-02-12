@@ -88,8 +88,6 @@ export const Header = ({ currentPage, id }) => {
 
                                     <SupportBtn title="Donate" />
 
-
-
                                 </li>
 
                             </ul>
@@ -168,7 +166,7 @@ export const Header = ({ currentPage, id }) => {
 
                         <div className="text-center flex items-center justify-center">
                             <div className="cursor-pointer w-60 font-bold whitespace-nowrap px-8 py-3 text-gray-700  border-2 text-lg rounded-full dark:border-white border-bg  transition-colors">
-                               Donate now
+                                Donate now
                             </div>
 
 
@@ -188,7 +186,7 @@ export const Header = ({ currentPage, id }) => {
                             <Link to="" className="group">
                                 <Instagram width={20} height={20} />
                             </Link>
-                           
+
 
 
 

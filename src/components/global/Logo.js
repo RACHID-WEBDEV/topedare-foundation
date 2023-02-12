@@ -1,4 +1,4 @@
-import LogoImage from "../../assets/TDF-Logo-new .png"
+import LogoImage from "../../assets/TD-foundation-logo.png"
 export const Logo = () => {
     return (
 
